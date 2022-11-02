@@ -1,0 +1,195 @@
+-- VHDL data flow description generated from `cronometro_boom`
+--		date : Sun Apr 22 02:17:40 2018
+
+
+-- Entity Declaration
+
+ENTITY cronometro_boom IS
+  PORT (
+  rlj : in BIT;	-- rlj
+  rst : in BIT;	-- rst
+  ctrl : in BIT;	-- ctrl
+  dseg : out bit_vector(2 DOWNTO 0) ;	-- dseg
+  useg : out bit_vector(3 DOWNTO 0) ;	-- useg
+  dmin : out bit_vector(2 DOWNTO 0) ;	-- dmin
+  umin : out bit_vector(3 DOWNTO 0) ;	-- umin
+  vdd : in BIT;	-- vdd
+  vss : in BIT	-- vss
+  );
+END cronometro_boom;
+
+
+-- Architecture Declaration
+
+ARCHITECTURE behaviour_data_flow OF cronometro_boom IS
+  SIGNAL maquina : REG_VECTOR(0 TO 1) REGISTER;	-- maquina
+  SIGNAL memuseg : REG_VECTOR(3 DOWNTO 0) REGISTER;	-- memuseg
+  SIGNAL memdseg : REG_VECTOR(2 DOWNTO 0) REGISTER;	-- memdseg
+  SIGNAL memumin : REG_VECTOR(3 DOWNTO 0) REGISTER;	-- memumin
+  SIGNAL memdmin : REG_VECTOR(2 DOWNTO 0) REGISTER;	-- memdmin
+  SIGNAL aux0 : BIT;		-- aux0
+  SIGNAL aux2 : BIT;		-- aux2
+  SIGNAL aux3 : BIT;		-- aux3
+  SIGNAL aux6 : BIT;		-- aux6
+  SIGNAL aux8 : BIT;		-- aux8
+  SIGNAL aux14 : BIT;		-- aux14
+  SIGNAL aux16 : BIT;		-- aux16
+  SIGNAL aux17 : BIT;		-- aux17
+  SIGNAL aux18 : BIT;		-- aux18
+  SIGNAL aux19 : BIT;		-- aux19
+  SIGNAL aux20 : BIT;		-- aux20
+  SIGNAL aux21 : BIT;		-- aux21
+  SIGNAL aux22 : BIT;		-- aux22
+  SIGNAL aux23 : BIT;		-- aux23
+  SIGNAL aux24 : BIT;		-- aux24
+  SIGNAL aux25 : BIT;		-- aux25
+  SIGNAL aux26 : BIT;		-- aux26
+  SIGNAL aux27 : BIT;		-- aux27
+  SIGNAL aux28 : BIT;		-- aux28
+  SIGNAL aux29 : BIT;		-- aux29
+  SIGNAL aux30 : BIT;		-- aux30
+
+BEGIN
+  aux30 <= (NOT(memdseg(2)) AND aux27);
+  aux29 <= (memumin(2) AND NOT(memumin(1)));
+  aux28 <= (NOT(rst) AND aux3);
+  aux27 <= (NOT(rst) AND NOT(aux3));
+  aux26 <= (NOT(rst) AND NOT(aux6));
+  aux25 <= (NOT(rst) AND aux6);
+  aux24 <= (aux20 OR aux22);
+  aux23 <= (aux19 AND memuseg(0));
+  aux22 <= (aux21 AND NOT(maquina(0)));
+  aux21 <= (maquina(1) AND NOT(rst));
+  aux20 <= (aux19 AND NOT(memuseg(0)));
+  aux19 <= (aux18 AND maquina(0));
+  aux18 <= (NOT(maquina(1)) AND NOT(rst));
+  aux17 <= (NOT(rst) AND memumin(3));
+  aux16 <= ((NOT(aux8) OR aux3) AND NOT(rst));
+  aux14 <= ((((((aux8 AND NOT(rst)) AND memuseg(0)) AND NOT(
+memuseg(2))) AND memuseg(3)) AND NOT(memuseg(1))) AND 
+memdseg(0));
+  aux8 <= ((NOT(memdseg(1)) AND memumin(0)) AND memdseg(2));
+  aux6 <= NOT(((NOT(aux3) AND memumin(3)) AND NOT(
+memumin(2))) AND NOT(memumin(1)));
+  aux3 <= NOT(NOT(aux2) AND memdseg(0));
+  aux2 <= NOT((NOT(aux0) AND memuseg(3)) AND NOT(memuseg(1)
+));
+  aux0 <= NOT(memuseg(0) AND NOT(memuseg(2)));
+  label0 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memdmin (0) <= GUARDED ((memdmin(0) AND aux25) OR ((memdmin(0) XOR aux8)
+ AND aux26));
+  END BLOCK label0;
+  label1 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memdmin (1) <= GUARDED ((memdmin(1) AND aux25) OR (((((NOT(memdmin(0)) 
+AND memdmin(1)) OR (memdmin(0) AND NOT(memdmin(2)) 
+AND NOT(memdmin(1)))) AND aux8) OR (memdmin(1) AND 
+NOT(aux8))) AND aux26));
+  END BLOCK label1;
+  label2 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memdmin (2) <= GUARDED ((memdmin(2) AND aux25) OR ((((NOT(memdmin(0)) OR
+ memdmin(1)) AND (memdmin(0) XOR memdmin(2)) AND 
+aux8) OR (memdmin(2) AND NOT(aux8))) AND aux26));
+  END BLOCK label2;
+  label3 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memumin (0) <= GUARDED ((((NOT(memdseg(1) XOR memumin(0)) AND memdseg(2)
+) OR (memumin(0) AND NOT(memdseg(2)))) AND aux27) 
+OR (memumin(0) AND aux28));
+  END BLOCK label3;
+  label4 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memumin (1) <= GUARDED ((aux16 AND memumin(1)) OR (aux14 AND (NOT(
+memumin(3)) OR memumin(2)) AND NOT(memumin(1))));
+  END BLOCK label4;
+  label5 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memumin (2) <= GUARDED ((((aux16 AND memumin(2)) OR (aux14 AND NOT(
+memumin(2)))) AND memumin(1)) OR (NOT(rst) AND aux29));
+  END BLOCK label5;
+  label6 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memumin (3) <= GUARDED ((aux16 AND memumin(3)) OR (((aux14 AND NOT(
+memumin(3)) AND memumin(2)) OR (aux17 AND NOT(memumin(2))))
+ AND memumin(1)) OR (aux17 AND aux29));
+  END BLOCK label6;
+  label7 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memdseg (0) <= GUARDED ((NOT(rst) AND aux2 AND memdseg(0)) OR (NOT(rst) 
+AND memuseg(0) AND NOT(memuseg(2)) AND memuseg(3) 
+AND NOT(memuseg(1)) AND NOT(memdseg(0))));
+  END BLOCK label7;
+  label8 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memdseg (1) <= GUARDED ((NOT(memdseg(1)) AND aux30) OR (memdseg(1) AND 
+aux28));
+  END BLOCK label8;
+  label9 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memdseg (2) <= GUARDED ((memdseg(1) AND aux30) OR (memdseg(2) AND aux28)
+);
+  END BLOCK label9;
+  label10 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memuseg (0) <= GUARDED ((aux22 AND memuseg(0)) OR aux20);
+  END BLOCK label10;
+  label11 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memuseg (1) <= GUARDED ((aux24 AND memuseg(1)) OR (aux23 AND (memuseg(2)
+ OR NOT(memuseg(3))) AND NOT(memuseg(1))));
+  END BLOCK label11;
+  label12 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memuseg (2) <= GUARDED ((aux24 AND memuseg(2)) OR (aux23 AND NOT(
+memuseg(2)) AND memuseg(1)) OR (aux19 AND memuseg(2) AND 
+NOT(memuseg(1))));
+  END BLOCK label12;
+  label13 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    memuseg (3) <= GUARDED ((((((aux19 AND (NOT(memuseg(0)) OR NOT(
+memuseg(2)))) OR aux22) AND memuseg(3)) OR (aux23 AND 
+memuseg(2) AND NOT(memuseg(3)))) AND memuseg(1)) OR (((
+aux19 AND aux0) OR aux22) AND memuseg(3) AND NOT(
+memuseg(1))));
+  END BLOCK label13;
+  label14 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    maquina (1) <= GUARDED ((aux18 AND ctrl AND maquina(0)) OR (aux21 AND 
+NOT(ctrl) AND NOT(maquina(0))));
+  END BLOCK label14;
+  label15 : BLOCK ((NOT((rlj'STABLE)) AND rlj) = '1')
+  BEGIN
+    maquina (0) <= GUARDED ((aux18 AND NOT(ctrl) AND maquina(0)) OR (NOT(rst
+) AND ctrl AND NOT(maquina(0))));
+  END BLOCK label15;
+
+umin (0) <= memumin(0);
+
+umin (1) <= memumin(1);
+
+umin (2) <= memumin(2);
+
+umin (3) <= memumin(3);
+
+dmin (0) <= memdmin(0);
+
+dmin (1) <= memdmin(1);
+
+dmin (2) <= memdmin(2);
+
+useg (0) <= memuseg(0);
+
+useg (1) <= memuseg(1);
+
+useg (2) <= memuseg(2);
+
+useg (3) <= memuseg(3);
+
+dseg (0) <= memdseg(0);
+
+dseg (1) <= memdseg(1);
+
+dseg (2) <= memdseg(2);
+END;

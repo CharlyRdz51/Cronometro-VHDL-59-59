@@ -1,0 +1,277 @@
+N:a2_x2_2_sig:-1:1027 ps
+N:a2_x2_3_sig:-1:868 ps
+N:a2_x2_4_sig:-1:982 ps
+N:a2_x2_5_sig:-1:1241 ps
+N:a2_x2_6_sig:-1:884 ps
+N:a2_x2_sig:-1:865 ps
+N:a3_x2_2_sig:-1:1341 ps
+N:a3_x2_3_sig:-1:1116 ps
+N:a3_x2_sig:-1:1363 ps
+N:ao22_x2_sig:-1:1693 ps
+N:aux19:-1:1027 ps
+N:aux23:-1:936 ps
+N:aux24:-1:351 ps
+N:aux25:-1:395 ps
+N:aux26:-1:546 ps
+N:aux27:-1:529 ps
+N:aux28:-1:417 ps
+N:aux3:-1:814 ps
+N:aux30:-1:779 ps
+N:aux8:-1:1271 ps
+N:ctrl:-1:0 ps
+N:dmin 0:-1:568 ps
+N:dmin 1:-1:547 ps
+N:dmin 2:-1:549 ps
+N:dseg 0:-1:543 ps
+N:dseg 1:-1:544 ps
+N:dseg 2:-1:548 ps
+N:inv_x2_2_sig:-1:664 ps
+N:inv_x2_3_sig:-1:232 ps
+N:inv_x2_sig:-1:659 ps
+N:maquina_0:-1:553 ps
+N:maquina_1:-1:517 ps
+N:memdmin_0:-1:568 ps
+N:memdmin_1:-1:547 ps
+N:memdmin_2:-1:549 ps
+N:memdseg_0:-1:543 ps
+N:memdseg_1:-1:544 ps
+N:memdseg_2:-1:548 ps
+N:memumin_0:-1:548 ps
+N:memumin_1:-1:560 ps
+N:memumin_2:-1:557 ps
+N:memumin_3:-1:532 ps
+N:memuseg_0:-1:554 ps
+N:memuseg_1:-1:572 ps
+N:memuseg_2:-1:565 ps
+N:memuseg_3:-1:536 ps
+N:mx2_x2_sig:-1:1239 ps
+N:na2_x1_2_sig:-1:738 ps
+N:na2_x1_sig:-1:892 ps
+N:na3_x1_sig:-1:1406 ps
+N:nao22_x1_2_sig:-1:1349 ps
+N:nao22_x1_3_sig:-1:939 ps
+N:nao22_x1_4_sig:-1:376 ps
+N:nao22_x1_5_sig:-1:1160 ps
+N:nao22_x1_sig:-1:1556 ps
+N:nao2o22_x1_sig:-1:948 ps
+N:no2_x1_10_sig:-1:335 ps
+N:no2_x1_2_sig:-1:865 ps
+N:no2_x1_3_sig:-1:734 ps
+N:no2_x1_4_sig:-1:866 ps
+N:no2_x1_5_sig:-1:893 ps
+N:no2_x1_6_sig:-1:293 ps
+N:no2_x1_7_sig:-1:335 ps
+N:no2_x1_8_sig:-1:311 ps
+N:no2_x1_9_sig:-1:293 ps
+N:no2_x1_sig:-1:885 ps
+N:no3_x1_2_sig:-1:937 ps
+N:no3_x1_3_sig:-1:1208 ps
+N:no3_x1_4_sig:-1:916 ps
+N:no3_x1_5_sig:-1:949 ps
+N:no3_x1_sig:-1:965 ps
+N:no4_x1_sig:-1:991 ps
+N:not_aux0:-1:116 ps
+N:not_aux14:-1:140 ps
+N:not_aux16:-1:116 ps
+N:not_aux17:-1:116 ps
+N:not_aux18:-1:116 ps
+N:not_aux19:-1:116 ps
+N:not_aux2:-1:116 ps
+N:not_aux20:-1:116 ps
+N:not_aux21:-1:134 ps
+N:not_aux22:-1:116 ps
+N:not_aux23:-1:140 ps
+N:not_aux29:-1:116 ps
+N:not_aux3:-1:144 ps
+N:not_aux6:-1:116 ps
+N:not_aux8:-1:132 ps
+N:not_ctrl:-1:158 ps
+N:not_maquina_0:-1:669 ps
+N:not_memdmin_0:-1:708 ps
+N:not_memdseg_2:-1:664 ps
+N:not_memumin_1:-1:676 ps
+N:not_memumin_2:-1:689 ps
+N:not_memumin_3:-1:688 ps
+N:not_memuseg_0:-1:687 ps
+N:not_memuseg_1:-1:710 ps
+N:not_memuseg_2:-1:720 ps
+N:not_memuseg_3:-1:716 ps
+N:not_rst:-1:176 ps
+N:nxr2_x1_2_sig:-1:890 ps
+N:nxr2_x1_sig:-1:902 ps
+N:o3_x2_2_sig:-1:1122 ps
+N:o3_x2_3_sig:-1:1153 ps
+N:o3_x2_4_sig:-1:1143 ps
+N:o3_x2_sig:-1:1329 ps
+N:oa22_x2_2_sig:-1:1824 ps
+N:oa22_x2_3_sig:-1:1802 ps
+N:oa22_x2_4_sig:-1:2143 ps
+N:oa22_x2_5_sig:-1:1657 ps
+N:oa22_x2_sig:-1:1840 ps
+N:oa2a22_x2_2_sig:-1:1263 ps
+N:oa2a22_x2_3_sig:-1:1183 ps
+N:oa2a22_x2_4_sig:-1:1183 ps
+N:oa2a22_x2_sig:-1:2144 ps
+N:oa2ao222_x2_2_sig:-1:1788 ps
+N:oa2ao222_x2_3_sig:-1:1794 ps
+N:oa2ao222_x2_4_sig:-1:1438 ps
+N:oa2ao222_x2_sig:-1:2246 ps
+N:rlj:-1:0 ps
+N:rst:-1:0 ps
+N:umin 0:-1:548 ps
+N:umin 1:-1:560 ps
+N:umin 2:-1:557 ps
+N:umin 3:-1:532 ps
+N:useg 0:-1:554 ps
+N:useg 1:-1:572 ps
+N:useg 2:-1:565 ps
+N:useg 3:-1:536 ps
+N:xr2_x1_sig:-1:1606 ps
+B:dseg_2:-1:948 ps
+B:dseg_1:-1:944 ps
+B:dseg_0:-1:943 ps
+B:useg_3:-1:936 ps
+B:useg_2:-1:965 ps
+B:useg_1:-1:972 ps
+B:useg_0:-1:954 ps
+B:dmin_2:-1:949 ps
+B:dmin_1:-1:947 ps
+B:dmin_0:-1:968 ps
+B:umin_3:-1:932 ps
+B:umin_2:-1:957 ps
+B:umin_1:-1:960 ps
+B:umin_0:-1:948 ps
+B:maquina_0:-1:1197 ps
+B:oa2a22_x2_4_ins:-1:1183 ps
+B:no2_x1_10_ins:-1:335 ps
+B:no2_x1_9_ins:-1:293 ps
+B:maquina_1:-1:1197 ps
+B:oa2a22_x2_3_ins:-1:1183 ps
+B:no2_x1_8_ins:-1:311 ps
+B:no2_x1_7_ins:-1:335 ps
+B:memuseg_3:-1:2157 ps
+B:oa22_x2_4_ins:-1:2143 ps
+B:oa22_x2_5_ins:-1:1657 ps
+B:nao22_x1_5_ins:-1:1160 ps
+B:a2_x2_6_ins:-1:884 ps
+B:no3_x1_5_ins:-1:949 ps
+B:a3_x2_3_ins:-1:1116 ps
+B:nao22_x1_4_ins:-1:376 ps
+B:memuseg_2:-1:1437 ps
+B:na3_x1_ins:-1:1406 ps
+B:na2_x1_2_ins:-1:738 ps
+B:o3_x2_4_ins:-1:1143 ps
+B:o3_x2_3_ins:-1:1153 ps
+B:memuseg_1:-1:1816 ps
+B:oa22_x2_3_ins:-1:1802 ps
+B:a3_x2_2_ins:-1:1341 ps
+B:na2_x1_ins:-1:892 ps
+B:memuseg_0:-1:963 ps
+B:nao22_x1_3_ins:-1:939 ps
+B:memdseg_2:-1:1277 ps
+B:oa2a22_x2_2_ins:-1:1263 ps
+B:memdseg_1:-1:1253 ps
+B:mx2_x2_ins:-1:1239 ps
+B:memdseg_0:-1:1838 ps
+B:oa22_x2_2_ins:-1:1824 ps
+B:no2_x1_6_ins:-1:293 ps
+B:a3_x2_ins:-1:1363 ps
+B:no2_x1_5_ins:-1:893 ps
+B:no3_x1_4_ins:-1:916 ps
+B:memumin_3:-1:1854 ps
+B:oa22_x2_ins:-1:1840 ps
+B:nao22_x1_2_ins:-1:1349 ps
+B:o3_x2_2_ins:-1:1122 ps
+B:nao2o22_x1_ins:-1:948 ps
+B:memumin_2:-1:1484 ps
+B:oa2ao222_x2_4_ins:-1:1438 ps
+B:inv_x2_3_ins:-1:232 ps
+B:no2_x1_4_ins:-1:866 ps
+B:no2_x1_3_ins:-1:734 ps
+B:memumin_1:-1:1574 ps
+B:nao22_x1_ins:-1:1556 ps
+B:o3_x2_ins:-1:1329 ps
+B:no2_x1_2_ins:-1:865 ps
+B:memumin_0:-1:1841 ps
+B:oa2ao222_x2_3_ins:-1:1794 ps
+B:a2_x2_5_ins:-1:1241 ps
+B:nxr2_x1_2_ins:-1:890 ps
+B:a2_x2_4_ins:-1:982 ps
+B:memdmin_2:-1:1835 ps
+B:oa2ao222_x2_2_ins:-1:1788 ps
+B:no3_x1_3_ins:-1:1208 ps
+B:no2_x1_ins:-1:885 ps
+B:nxr2_x1_ins:-1:902 ps
+B:a2_x2_3_ins:-1:868 ps
+B:memdmin_1:-1:2292 ps
+B:oa2ao222_x2_ins:32:2246 ps
+B:ao22_x2_ins:32:1693 ps
+B:no3_x1_2_ins:-1:937 ps
+B:a2_x2_2_ins:-1:1027 ps
+B:a2_x2_ins:-1:865 ps
+B:memdmin_0:-1:2158 ps
+B:oa2a22_x2_ins:-1:2144 ps
+B:xr2_x1_ins:-1:1606 ps
+B:aux3_ins:-1:715 ps
+B:aux8_ins:32:970 ps
+B:inv_x2_2_ins:-1:664 ps
+B:aux19_ins:-1:846 ps
+B:aux23_ins:-1:864 ps
+B:aux24_ins:-1:289 ps
+B:aux25_ins:-1:293 ps
+B:aux26_ins:-1:495 ps
+B:aux27_ins:-1:495 ps
+B:aux28_ins:-1:321 ps
+B:aux30_ins:-1:874 ps
+B:not_ctrl_ins:-1:116 ps
+B:not_rst_ins:-1:116 ps
+B:not_memdmin_0:-1:684 ps
+B:not_memuseg_0:-1:670 ps
+B:not_memuseg_2:-1:681 ps
+B:not_aux0_ins:-1:1038 ps
+B:not_memuseg_3:-1:652 ps
+B:not_memuseg_1:-1:688 ps
+B:not_aux2_ins:-1:1116 ps
+B:not_aux3_ins:-1:930 ps
+B:not_memumin_3:-1:648 ps
+B:not_memumin_2:-1:673 ps
+B:not_memumin_1:-1:676 ps
+B:not_aux6_ins:-1:1165 ps
+B:not_memdseg_2:32:664 ps
+B:not_aux8_ins:-1:1387 ps
+B:not_aux16_ins:-1:1066 ps
+B:not_aux14_ins:-1:1184 ps
+B:no3_x1_ins:-1:965 ps
+B:inv_x2_ins:-1:659 ps
+B:no4_x1_ins:-1:991 ps
+B:not_aux29_ins:-1:1039 ps
+B:not_aux17_ins:-1:704 ps
+B:not_aux21_ins:-1:690 ps
+B:not_maquina_0:-1:669 ps
+B:not_aux22_ins:-1:902 ps
+B:not_aux18_ins:-1:867 ps
+B:not_aux19_ins:-1:1143 ps
+B:not_aux20_ins:-1:904 ps
+B:not_aux23_ins:-1:1052 ps
+C:umin 0:-1:548 ps
+C:umin 1:-1:560 ps
+C:umin 2:-1:557 ps
+C:umin 3:-1:532 ps
+C:dmin 0:-1:568 ps
+C:dmin 1:-1:547 ps
+C:dmin 2:-1:549 ps
+C:useg 0:-1:554 ps
+C:useg 1:-1:572 ps
+C:useg 2:-1:565 ps
+C:useg 3:-1:536 ps
+C:dseg 0:-1:543 ps
+C:dseg 1:-1:544 ps
+C:dseg 2:-1:548 ps
+C:ctrl:-1:0 ps
+C:rst:-1:0 ps
+C:rlj:-1:0 ps
+P:memdseg_2:memdseg_2:not_memdseg_2:32:1052 ps
+P:not_memdseg_2:not_memdseg_2:aux8_ins:32:1052 ps
+P:aux8_ins:aux8:ao22_x2_ins:32:1052 ps
+P:ao22_x2_ins:ao22_x2_sig:oa2ao222_x2_ins:32:1052 ps
+P:oa2ao222_x2_ins:oa2ao222_x2_sig:memdmin_1:32:1052 ps

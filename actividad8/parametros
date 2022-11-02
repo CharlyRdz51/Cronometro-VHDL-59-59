@@ -1,0 +1,13 @@
+--LOON------------------------------------------------------------------
+Area on file 'cronometro_boog.vst'...210750 lamda² (with over-cell routing)
+Area on file 'cronometro.vst'...217000 lamda² (with over-cell routing)
+Critical path (no warranty)...3244 ps from 'memuseg 2' to 'memdmin_2_ins'
+------------------------------------------------------------------------
+
+--COUGAR----------------------------------------------------------------
+		---> Figure size   : (   -100,   -100 )
+		                     (  52100,  50100 )
+		---> Build transistors
+		<--- 1058
+------------------------------------------------------------------------
+

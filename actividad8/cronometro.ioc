@@ -1,0 +1,28 @@
+        TOP(
+	    (IOPIN dseg(0).0);
+	    (IOPIN dseg(1).0);
+	    (IOPIN dseg(2).0);
+	    (IOPIN useg(0).0);
+	    (IOPIN useg(1).0);
+	    (IOPIN useg(2).0);
+	    (IOPIN useg(3).0);
+            (IOPIN rlj.0);
+            (IOPIN ctrl.0);
+           )
+
+	LEFT (
+	     )
+
+	RIGHT(     
+	     )
+	
+	BOTTOM(
+	    (IOPIN dmin(0).0);
+	    (IOPIN dmin(1).0);
+	    (IOPIN dmin(2).0);
+	    (IOPIN umin(0).0);
+	    (IOPIN umin(1).0);
+	    (IOPIN umin(2).0);
+	    (IOPIN umin(3).0); 
+	    (IOPIN rst.0);
+             )

@@ -1,0 +1,95 @@
+
+                   @@@@@@                          @@@    @@@
+                     @@                             @@     @ 
+                     @@                             @@@    @ 
+                     @@           @@@       @@@     @ @@   @ 
+                     @@         @@   @@   @@   @@   @ @@   @ 
+                     @@        @@     @@ @@     @@  @  @@  @ 
+                     @@        @@     @@ @@     @@  @   @@ @ 
+                     @@        @@     @@ @@     @@  @   @@ @ 
+                     @@      @ @@     @@ @@     @@  @    @@@ 
+                     @@     @   @@   @@   @@   @@   @     @@ 
+                   @@@@@@@@@@     @@@       @@@    @@@    @@ 
+
+                           Local optimization on Nets
+
+                 Alliance CAD System 5.0, loon 5.0 [2003/12/07]
+                 Copyright (c) 2000-2018,        ASIM/LIP6/UPMC
+                 Author(s):                     François Donnet
+                 E-mail        :    alliance-users@asim.lip6.fr
+
+	MBK_IN_LO	: vst
+	MBK_OUT_LO	: vst
+	MBK_TARGET_LIB	: /usr/share/alliance/cells/sxlib
+
+Reading default parameter...
+50% area - 50% delay optimization
+Reading file 'cronometro_boog.vst'...
+Reading lib '/usr/share/alliance/cells/sxlib'...
+Capacitances on file 'cronometro_boog.vst'...
+Delays on file 'cronometro_boog.vst'...3447 ps
+Area on file 'cronometro_boog.vst'...210750 lamda² (with over-cell routing)
+Details...
+	inv_x2: 19 (6%)
+	sff1_x4: 16 (34%)
+	buf_x2: 14 (6%)
+	no2_x1: 14 (6%)
+	a2_x2: 9 (5%)
+	nao22_x1: 6 (4%)
+	no3_x1: 6 (3%)
+	na2_x1: 6 (2%)
+	oa22_x2: 5 (3%)
+	oa2a22_x2: 4 (4%)
+	a3_x2: 4 (2%)
+	o3_x2: 4 (2%)
+	oa2ao222_x2: 4 (4%)
+	o2_x2: 4 (2%)
+	nxr2_x1: 2 (2%)
+	na3_x1: 1 (0%)
+	mx2_x2: 1 (1%)
+	nao2o22_x1: 1 (0%)
+	ao22_x2: 1 (0%)
+	xr2_x1: 1 (1%)
+	an12_x1: 1 (0%)
+	a4_x2: 1 (0%)
+	no4_x1: 1 (0%)
+	on12_x1: 1 (0%)
+	Total: 126
+Worst RC on file 'cronometro_boog.vst'...174 ps
+Inserting buffers on critical path for file 'cronometro.vst'...6 buffers inserted -> 3287 ps
+Improving RC on critical path for file 'cronometro.vst'...3244 ps
+Improving all RC for file 'cronometro.vst'...
+Worst RC on file 'cronometro.vst'...174 ps
+Area on file 'cronometro.vst'...217000 lamda² (with over-cell routing)
+Details...
+	buf_x2: 20 (9%)
+	inv_x2: 18 (6%)
+	sff1_x4: 16 (33%)
+	no2_x1: 14 (6%)
+	a2_x2: 9 (5%)
+	nao22_x1: 6 (4%)
+	no3_x1: 6 (3%)
+	na2_x1: 6 (2%)
+	oa22_x2: 5 (3%)
+	oa2a22_x2: 4 (4%)
+	a3_x2: 4 (2%)
+	o3_x2: 4 (2%)
+	oa2ao222_x2: 4 (4%)
+	o2_x2: 4 (2%)
+	nxr2_x1: 2 (2%)
+	na3_x1: 1 (0%)
+	mx2_x2: 1 (1%)
+	nao2o22_x1: 1 (0%)
+	ao22_x2: 1 (0%)
+	xr2_x1: 1 (1%)
+	an12_x1: 1 (0%)
+	inv_x4: 1 (0%)
+	a4_x2: 1 (0%)
+	no4_x1: 1 (0%)
+	on12_x1: 1 (0%)
+	Total: 132
+Critical path (no warranty)...3244 ps from 'memuseg 2' to 'memdmin_2_ins'
+Saving file 'cronometro.vst'...
+Saving critical path in xsch color file 'cronometro.xsc'...
+End of loon...
+
